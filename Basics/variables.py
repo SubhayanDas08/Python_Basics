@@ -50,3 +50,20 @@ print(x + y)
 # x = 5
 # y = "John"
 # print(x + y)
+
+
+# GLOBAL VARIABLES
+x= "Awesome"
+
+def myFunc():
+    print("Python is "+ x);
+
+myFunc();
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
