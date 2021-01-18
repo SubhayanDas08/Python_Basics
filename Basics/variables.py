@@ -60,9 +60,19 @@ def myFunc():
 
 myFunc();
 
+#Local Variable
 def myfunc():
-  x = "fantastic"
+  x = "fantastic"     
   print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+#Global Keyword
+def myfunc():
+  global x
+  x = "fantastic"
 
 myfunc()
 
